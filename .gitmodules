@@ -5,5 +5,6 @@
 	path = submodules/diff-gaussian-rasterization
 	url = https://github.com/graphdeco-inria/diff-gaussian-rasterization
 [submodule "SIBR_viewers"]
+	branch = master
 	path = SIBR_viewers
-	url = https://gitlab.inria.fr/sibr/sibr_core.git
+	url = https://github.com/lucky9-cyou/SIBR-Core.git
