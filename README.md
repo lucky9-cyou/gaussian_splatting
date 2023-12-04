@@ -321,7 +321,7 @@ You will need to install a few dependencies before running the project setup.
 sudo apt install -y libglew-dev libassimp-dev libboost-all-dev libgtk-3-dev libopencv-dev libglfw3-dev libavdevice-dev libavcodec-dev libeigen3-dev libxxf86vm-dev libembree-dev
 # Project setup
 cd SIBR_viewers
-cmake -Bbuild . -DCMAKE_BUILD_TYPE=Release # add -G Ninja to build faster
+cmake -Bbuild . -DCMAKE_BUILD_TYPE=Release -DBUILD_SIBR=gaussianviewer -DUSE_PATCHED_GLFW=ON
 cmake --build build -j24 --target install
 ``` 
 
